@@ -1,9 +1,6 @@
 // Q. Write a program to calculate power of a number.
 
-
-
 #include<stdio.h>
-
 #include<conio.h>
 
 void main()
@@ -25,17 +22,13 @@ void main()
    else
 
    {
-
 	for(i=1;i<=pow;i++)
 
 	{
-
-		tot=tot*base;
-
+	tot=tot*base;
 	}
 
 	printf("Result is: %d",tot);
-
    }
 
    getch();
